@@ -1,0 +1,6 @@
+display:{Name:'[{"text":"Uwu","italic":false}]'}
+
+CustomModelData:Uwu
+
+## Test Command ##
+/give @p knowledge_book{display:{Name:'[{"text":"Test","italic":false,"color":"dark_purple","underlined":true}]',Lore:['[{"text":"Health:","italic":false,"color":"white"},{"text":" ","color":"dark_purple"},{"text":"SCOREVALUE","color":"red"},{"text":"","color":"dark_purple"}]','[{"text":"Attack:","italic":false,"color":"white"},{"text":" ","color":"dark_purple"},{"text":"SCOREVALUE","color":"red"},{"text":"","color":"dark_purple"}]','[{"text":"Speed:","italic":false,"color":"white"},{"text":" ","color":"dark_purple"},{"text":"SCOREVALUE","color":"red"},{"text":"","color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"COMMON Card","italic":false,"color":"green","bold":true},{"text":"","italic":false,"color":"dark_purple","bold":false}]','[{"text":"MC Trading Card Game","italic":true,"color":"dark_blue"}]']},Enchantments:[{}],HideFlags:5} 1
