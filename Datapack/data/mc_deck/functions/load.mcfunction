@@ -9,6 +9,9 @@ scoreboard objectives add cardIDs dummy
 scoreboard objectives add Debug dummy
 scoreboard players add first_time_load_completed Debug 0
 
+# Setup other Scoreboards
+scoreboard objectives add click_carrot minecraft.used:minecraft.carrot_on_a_stick
+
 # Install Card Stats
 function #mc_deck:install_card_stats
 

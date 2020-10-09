@@ -1,0 +1,6 @@
+# Reset Score
+scoreboard players reset @s click_carrot
+
+## Detect what card it is
+# Creeper
+execute at @a[sort=nearest,nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",tag:{IsMcDeckCard:1,cardID:1}}]}] run tellraw @s ["",{"text":"####################","color":"yellow"},{"text":"\n"},{"text":"~~~","color":"blue"},{"text":" "},{"text":"Creeper","underlined":true,"color":"aqua"},{"text":" ~~~","color":"blue"},{"text":"\n"},{"text":"Health:","color":"red"},{"text":" "},{"score":{"name":"creeper","objective":"cardHealth"}},{"text":"\n"},{"text":"Damage:","color":"red"},{"text":" "},{"score":{"name":"creeper","objective":"cardAttack"}},{"text":"\n"},{"text":"Defence:","color":"red"},{"text":" "},{"score":{"name":"creeper","objective":"cardDefence"}},{"text":"\n"},{"text":"Speed:","color":"red"},{"text":" "},{"score":{"name":"creeper","objective":"cardSpeed"}},{"text":"\n"},{"text":"ID:","color":"red"},{"text":" "},{"score":{"name":"creeper","objective":"cardIDs"}},{"text":"\n"},{"text":"####################","color":"yellow"}]
