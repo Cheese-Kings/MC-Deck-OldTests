@@ -15,15 +15,20 @@ set /p cardSpeed=Enter Card Speed Value:
 set /p cardRarity=Enter Card Rarity (COMMON/RARE/EPIC/LEGENDARY): 
 set /p cardID=Enter Card ID (e.g. 1, 34, 8463829678876): 
 
+echo.
+echo Name=%cardName% name=%cardNameWithoutCaps% Health=%cardHealth% Attack=%cardAttack% Defence=%cardDefence% Speed=%cardSpeed% Rarity=%cardRarity% ID=%cardID%
+
+cd ..
+cd Datapack/data/debug/functions/give_card
 (
 echo # %cardName% Card Give Command
 echo give @s minecraft:carrot_on_a_stick{IsMcDeckCard:1,CustomModelData:1%cardID%,cardID:%cardID%} 1
 )> give_%cardNameWithoutCaps%.mcfunction
 
-echo.
-echo Name=%cardName% name=%cardNameWithoutCaps% Health=%cardHealth% Attack=%cardAttack% Defence=%cardDefence% Speed=%cardSpeed% Rarity=%cardRarity% ID=%cardID%
-
-cd ../Datapack
+cd ..
+cd ..
+cd ..
+cd mc_deck/functions/card_stats
 (
 echo ## %cardName% Card Stats
 echo.
