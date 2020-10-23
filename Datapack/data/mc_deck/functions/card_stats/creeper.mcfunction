@@ -1,12 +1,12 @@
 ## %cardName% Card Stats
 
 # Health
-scoreboard players set creeper cardHealth %cardHealth%
+scoreboard players set creeper cardHealth 20
 # Attack Damage
-scoreboard players set creeper cardAttack %cardAttack%
+scoreboard players set creeper cardAttack 40
 # Defence
-scoreboard players set creeper cardDefence %cardDefence%
+scoreboard players set creeper cardDefence 8
 # Speed
-scoreboard players set creeper cardSpeed %cardSpeed%
+scoreboard players set creeper cardSpeed 4
 # ID
-scoreboard players set creeper cardIDs %cardID%
+scoreboard players set creeper cardIDs 1
