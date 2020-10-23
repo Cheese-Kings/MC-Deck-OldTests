@@ -1,14 +1,14 @@
 {
     "parent": "item/handheld_rod",
     "textures": {
-        "layer0": "items/carrot_on_a_stick"
+        "layer0": "item/carrot_on_a_stick"
     },
 
     "overrides":[
 
-     {"predicate": {"custom_model_data":11}, "texture":"mc_deck/item/common_cards/creeper"},
-     {"predicate": {"custom_model_data":12}, "texture":"mc_deck/item/common_cards/zombie"},
-     {"predicate": {"custom_model_data":12}, "texture":"mc_deck/item/epic_cards/charged_creeper"}
+     {"predicate": {"custom_model_data":11}, "model":"cards/common/zombie"},
+     {"predicate": {"custom_model_data":12}, "model":"cards/common/creeper"},
+     {"predicate": {"custom_model_data":13}, "model":"cards/epic/charged_creeper"}
 
      ]
 
