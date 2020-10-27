@@ -16,8 +16,10 @@ scoreboard objectives add click_carrot minecraft.used:minecraft.carrot_on_a_stic
 function #mc_deck:install_card_stats
 
 # Run card detection
-schedule clear #mc_deck:detect_card
-schedule function #mc_deck:detect_card 5t
+execute if score first_time_load_completed Debug matches 0 run schedule function #mc_deck:detect_card 5t
+
+# Scedule the Daily Gift
+execute if score first_time_load_completed Debug matches 0 run schedule function mc_deck:daily_gift 1d
 
 # Installation Completion
 execute if score first_time_load_completed Debug matches 0 run tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"},{"text":"\n"},{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
