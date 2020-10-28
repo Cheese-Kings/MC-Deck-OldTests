@@ -7,6 +7,7 @@ scoreboard objectives add cardSpeed dummy
 # Setup Debug Scoreboard
 scoreboard objectives add Debug dummy
 scoreboard players add first_time_load_completed Debug 0
+scoreboard players add time Debug 0
 # Current Verison
 scoreboard players add current_version_major Debug 0
 scoreboard players set current_version_major Debug 0
@@ -21,9 +22,6 @@ function #mc_deck:install_card_stats
 
 # Run card detection
 execute if score first_time_load_completed Debug matches 0 run schedule function #mc_deck:detect_card 5t
-
-# Scedule the Daily Gift
-execute if score first_time_load_completed Debug matches 0 run schedule function mc_deck:daily_gift 1d
 
 # Installation Completion
 tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"},{"text":"\n"},{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
