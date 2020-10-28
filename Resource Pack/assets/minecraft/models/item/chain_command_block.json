@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "item/barrier"
+        "layer0": "item/chain_command_block"
     },
 
     "overrides":[
