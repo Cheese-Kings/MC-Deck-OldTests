@@ -28,6 +28,7 @@ function #mc_deck:install_card_stats
 execute if score first_time_load_completed Debug matches 0 run schedule function #mc_deck:detect_card 5t
 
 # Installation Completion
-tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"},{"text":"\n"},{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
+tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"}]
+execute if score first_time_load_completed Debug matches 1.. run tellraw @a [{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
 # Mark first time load as completed
 execute if score first_time_load_completed Debug matches 0 run scoreboard players set first_time_load_completed Debug 1
