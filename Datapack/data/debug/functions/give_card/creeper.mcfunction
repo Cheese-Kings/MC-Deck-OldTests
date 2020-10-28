@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{CustomModelData:12,display:{Name:'[{"text":"Creeper Card","italic":false}]',Lore:['[{"text":"","italic":false}]','[{"text":"COMMON","italic":false,"color":"white"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Mc Deck","italic":true,"color":"blue"}]']}} 1

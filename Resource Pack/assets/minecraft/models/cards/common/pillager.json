@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:cards/common/pilliger"
+    "layer0": "minecraft:cards/common/pillager"
   }
 }
