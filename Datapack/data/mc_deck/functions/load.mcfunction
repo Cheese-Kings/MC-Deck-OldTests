@@ -13,7 +13,7 @@ scoreboard players set current_version_major Debug 0
 scoreboard players add current_version_minor Debug 0
 scoreboard players set current_version_minor Debug 1
 
-# Setup other Scoreboards
+# Setup other Scoreboards [Currently Not Required, Saving For Later Feature]
 scoreboard objectives add click_carrot minecraft.used:minecraft.carrot_on_a_stick
 
 # Install Card Stats
@@ -26,5 +26,6 @@ execute if score first_time_load_completed Debug matches 0 run schedule function
 execute if score first_time_load_completed Debug matches 0 run schedule function mc_deck:daily_gift 1d
 
 # Installation Completion
-execute if score first_time_load_completed Debug matches 0 run tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"},{"text":"\n"},{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
+tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"},{"text":"\n"},{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
+# Mark first time load as completed
 execute if score first_time_load_completed Debug matches 0 run scoreboard players set first_time_load_completed Debug 1
