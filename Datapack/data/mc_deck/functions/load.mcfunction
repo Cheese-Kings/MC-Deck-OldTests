@@ -8,10 +8,11 @@ scoreboard objectives add cardSpeed dummy
 scoreboard objectives add Debug dummy
 scoreboard players add first_time_load_completed Debug 0
 scoreboard players add time Debug 0
-# Current Verison
+# Current Version
 scoreboard players add current_version_major Debug 0
-scoreboard players set current_version_major Debug 0
 scoreboard players add current_version_minor Debug 0
+# Set Datapack Version
+scoreboard players set current_version_major Debug 0
 scoreboard players set current_version_minor Debug 1
 
 # Setup Click Carrot Scoreboard [Currently Not Required, Saving For Later Feature]
