@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:structure_void",
+          "name": "minecraft:barrier",
           "weight": 1,
           "functions": [
             {
