@@ -1,5 +1,3 @@
-## %cardName% Card Stats
-
 # Health
 scoreboard players set creeper cardHealth 20
 # Attack Damage
