@@ -14,8 +14,11 @@ scoreboard players set current_version_major Debug 0
 scoreboard players add current_version_minor Debug 0
 scoreboard players set current_version_minor Debug 1
 
-# Setup other Scoreboards [Currently Not Required, Saving For Later Feature]
+# Setup Click Carrot Scoreboard [Currently Not Required, Saving For Later Feature]
 scoreboard objectives add click_carrot minecraft.used:minecraft.carrot_on_a_stick
+
+# Setup Daily Rubies Scoreboard
+scoreboard objectives add daily_rubies dummy
 
 # Install Card Stats
 function #mc_deck:install_card_stats
