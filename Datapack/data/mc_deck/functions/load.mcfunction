@@ -3,11 +3,15 @@ scoreboard objectives add cardHealth dummy
 scoreboard objectives add cardAttack dummy
 scoreboard objectives add cardDefence dummy
 scoreboard objectives add cardSpeed dummy
-scoreboard objectives add cardIDs dummy
 
 # Setup Debug Scoreboard
 scoreboard objectives add Debug dummy
 scoreboard players add first_time_load_completed Debug 0
+# Current Verison
+scoreboard players add current_version_major Debug 0
+scoreboard players set current_version_major Debug 0
+scoreboard players add current_version_minor Debug 0
+scoreboard players set current_version_minor Debug 1
 
 # Setup other Scoreboards
 scoreboard objectives add click_carrot minecraft.used:minecraft.carrot_on_a_stick

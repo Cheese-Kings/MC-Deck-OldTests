@@ -1,0 +1,2 @@
+# Shows the player Mc Decks current version number
+tellraw @s ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" Mc Deck","color":"blue"},{"text":" Current Version:","color":"green"},{"text":" "},{"score":{"name":"current_version_major","objective":"Debug"},"color":"light_purple"},{"text":".","color":"light_purple"},{"score":{"name":"current_version_minor","objective":"Debug"},"color":"light_purple"}]

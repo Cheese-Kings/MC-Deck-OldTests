@@ -6,5 +6,3 @@ scoreboard players set creeper cardAttack 40
 scoreboard players set creeper cardDefence 8
 # Speed
 scoreboard players set creeper cardSpeed 4
-# ID
-scoreboard players set creeper cardIDs 1
