@@ -1,0 +1,9 @@
+{
+	"required":false,
+	"values": [
+		"minecraft:shulker",
+		"minecraft:painting",
+		"minecraft:item_frame",
+		"minecraft:leash_knot"
+	]
+} 

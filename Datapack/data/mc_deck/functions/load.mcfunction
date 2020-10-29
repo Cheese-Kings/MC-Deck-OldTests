@@ -6,6 +6,7 @@ scoreboard objectives add cardSpeed dummy
 scoreboard objectives add Debug dummy
 scoreboard players add first_time_load_completed Debug 0
 scoreboard players add time Debug 0
+scoreboard players add day_count Debug 0
 # Current Version
 scoreboard players add current_version_major Debug 0
 scoreboard players add current_version_minor Debug 0
@@ -21,6 +22,13 @@ scoreboard objectives add daily_rubies dummy
 
 # Install Card Stats
 function #mc_deck:install_card_stats
+
+# Setup Synergy Bossbar/Scoreboard
+bossbar add synergy ["",{"text":"-[=@=/","color":"yellow"},{"text":" SYNERGY","color":"light_purple"},{"text":" \\=@=]-","color":"yellow"}]
+bossbar set synergy color purple
+bossbar set synergy max 150
+bossbar set synergy style progress
+scoreboard objectives add player_synergy dummy
 
 # Run card detection
 execute if score first_time_load_completed Debug matches 0 run schedule function #mc_deck:detect_card 5t

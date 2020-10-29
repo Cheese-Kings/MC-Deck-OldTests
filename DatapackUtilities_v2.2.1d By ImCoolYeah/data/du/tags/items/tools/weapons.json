@@ -1,0 +1,9 @@
+{
+	"required":false,
+	"values":[
+		"#du:tools/swords",
+		"minecraft:bow",
+		"minecraft:trident",
+		"minecraft:crossbow"
+	]
+}

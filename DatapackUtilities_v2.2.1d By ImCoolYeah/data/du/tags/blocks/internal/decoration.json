@@ -1,0 +1,27 @@
+{
+	"values":[
+		"#du:air",
+		"#minecraft:leaves",
+		"#minecraft:logs",
+		"#minecraft:saplings",
+		"#du:plants",
+		"minecraft:brown_mushroom_block",
+		"minecraft:red_mushroom_block",
+		"minecraft:snow",
+		"minecraft:mossy_cobblestone",
+		"minecraft:pumpkin",
+		"minecraft:melon",
+		"minecraft:fire",
+		"minecraft:soul_fire",
+		"minecraft:chorus_plant",
+		"minecraft:chorus_flower",
+		"minecraft:nether_wart_block",
+		"minecraft:warped_wart_block",
+		"minecraft:shroomlight",
+		"minecraft:glowstone",
+		"minecraft:bone_block",
+		"minecraft:nether_bricks",
+		"minecraft:nether_brick_fence",
+		"minecraft:nether_brick_stairs"
+	]
+}

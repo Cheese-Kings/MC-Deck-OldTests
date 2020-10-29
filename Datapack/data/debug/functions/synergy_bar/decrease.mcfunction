@@ -1,0 +1,1 @@
+execute store result bossbar synergy value run scoreboard players remove @s player_synergy 10
