@@ -1,4 +1,4 @@
 # Synergy
-scoreboard players set creeper cardSynergy 15
+scoreboard players set pillager cardSynergy 15
 # Speed
-scoreboard players set creeper cardSpeed 4
+scoreboard players set pillager cardSpeed 4

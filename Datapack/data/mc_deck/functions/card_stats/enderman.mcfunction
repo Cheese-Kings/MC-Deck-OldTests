@@ -1,4 +1,4 @@
 # Synergy
-scoreboard players set creeper cardSynergy 23
+scoreboard players set enderman cardSynergy 23
 # Speed
-scoreboard players set creeper cardSpeed 5
+scoreboard players set enderman cardSpeed 5

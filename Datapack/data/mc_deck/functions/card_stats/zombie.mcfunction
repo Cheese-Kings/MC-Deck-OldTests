@@ -1,4 +1,4 @@
 # Synergy
-scoreboard players set creeper cardSynergy 7
+scoreboard players set zombie cardSynergy 7
 # Speed
-scoreboard players set creeper cardSpeed 3
+scoreboard players set zombie cardSpeed 3
