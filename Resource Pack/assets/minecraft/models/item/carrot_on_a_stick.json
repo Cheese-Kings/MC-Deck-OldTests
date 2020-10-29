@@ -11,7 +11,8 @@
      {"predicate": {"custom_model_data":13}, "model":"cards/epic/charged_creeper"},
      {"predicate": {"custom_model_data":14}, "model":"cards/common/skeleton"},
      {"predicate": {"custom_model_data":15}, "model":"cards/common/pillager"},
-     {"predicate": {"custom_model_data":16}, "model":"cards/rare/enderman"}
+     {"predicate": {"custom_model_data":16}, "model":"cards/rare/enderman"},
+     {"predicate": {"custom_model_data":17}, "model":"cards/common/drowned"}
 
      ]
 

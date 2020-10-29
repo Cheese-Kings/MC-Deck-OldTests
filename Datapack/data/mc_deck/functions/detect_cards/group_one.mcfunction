@@ -1,6 +1,6 @@
 ####################################
 ## Group 1:                       ##
-## Cards 1-10                     ##
+## Cards 1-15                     ##
 ####################################
 
 # (1) Creeper
@@ -20,3 +20,6 @@ execute as @p if data entity @s SelectedItem.tag.card_skeleton run say Skeleton 
 
 # (6) Zombie
 execute as @p if data entity @s SelectedItem.tag.card_zombie run say Zombie Card Selected
+
+# (7) Drowned
+execute as @p if data entity @s SelectedItem.tag.card_drowned run say Drowned Card Selected
