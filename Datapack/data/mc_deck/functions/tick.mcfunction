@@ -1,6 +1,6 @@
 # Recieve Daily Gift
 execute store result score time Debug run time query daytime
-execute if score time Debug matches 1200 run function mc_deck:daily_gift
+execute if score time Debug matches 1000 run function mc_deck:daily_gift
 
 # Convert Daily Gift to Rubys
 scoreboard players add @a daily_rubies 0
