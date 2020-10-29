@@ -1,0 +1,17 @@
+{
+	"soundtrack.card_battle": {
+		"category": "music",
+		"sounds": [
+            "mc_deck:soundtrack/ReunitedUndertaleRemix_Noteblock",
+            "mc_deck:soundtrack/PigstepMinecraftRemix_Noteblock",
+			{
+			"name":"mc_deck:soundtrack/ReunitedUndertaleRemix_Noteblock",
+			"volume": 0.4
+            },
+            {
+            "name":"mc_deck:soundtrack/PigstepMinecraftRemix_Noteblock",
+            "volume": 0.4
+            }
+    ]
+  }
+}
