@@ -15,3 +15,9 @@ bossbar set synergy players @a
 execute as @a[tag=!inBattle] run bossbar set synergy visible false
 execute as @a[tag=inBattle] run bossbar set synergy visible true
 scoreboard players add @a player_synergy 0
+
+# Display Card Health
+bossbar set card_health players @a
+execute as @a[tag=!inBattle] run bossbar set card_health visible false
+execute as @a[tag=inBattle] run bossbar set card_health visible true
+scoreboard players add @a player_synergy 0

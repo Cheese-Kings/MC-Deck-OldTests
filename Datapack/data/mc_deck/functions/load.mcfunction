@@ -30,6 +30,14 @@ bossbar set synergy max 150
 bossbar set synergy style progress
 scoreboard objectives add player_synergy dummy
 
+
+# Setup Card Health Bossbar/Scoreboard
+bossbar add card_health ["",{"text":"-[=@=/","color":"yellow"},{"text":" CARD HEALTH","color":"red"},{"text":" \\=@=]-","color":"yellow"}]
+bossbar set card_health color red
+bossbar set card_health max 150
+bossbar set card_health style progress
+scoreboard objectives add player_card_hp dummy
+
 # Run card detection
 execute if score first_time_load_completed Debug matches 0 run schedule function #mc_deck:detect_card 5t
 
