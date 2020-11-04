@@ -21,6 +21,3 @@ bossbar set card_health players @a
 execute as @a[tag=!inBattle] run bossbar set card_health visible false
 execute as @a[tag=inBattle] run bossbar set card_health visible true
 scoreboard players add @a player_synergy 0
-
-# Recieve daily quote
-execute if score time Debug matches 1001 run function mc_deck:daily_quote

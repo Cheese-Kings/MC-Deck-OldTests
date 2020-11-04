@@ -1,5 +1,5 @@
 # Randomiser
-scoreboard players set $math.in_0 du_data 10
+scoreboard players set $math.in_0 du_data 11
 function du:math/random
 
 ## Quotes
@@ -25,3 +25,5 @@ execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"#####
 execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"The Grinch is cringe","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
 # Imaginary Life
 execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"Life is just your imagination...","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
+# Speeeeeeeed Growth
+execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"They grow up so fast...","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]

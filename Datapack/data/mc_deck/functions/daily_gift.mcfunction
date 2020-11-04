@@ -7,3 +7,6 @@ execute as @a store result score @s daily_rubies run scoreboard players get $mat
 
 # Announce to chat
 tellraw @s ["",{"text":"[Mc Deck]:","bold":true,"color":"yellow"},{"text":" You have recieved your","color":"green"},{"text":" Daily Gift","color":"blue"},{"text":"!","color":"green"}]
+
+# Recieve daily quote
+function mc_deck:daily_quote
