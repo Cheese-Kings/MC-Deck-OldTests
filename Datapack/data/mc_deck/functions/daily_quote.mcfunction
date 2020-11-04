@@ -1,5 +1,5 @@
 # Randomiser
-scoreboard players set $math.in_0 du_data 5
+scoreboard players set $math.in_0 du_data 10
 function du:math/random
 
 ## Quotes
@@ -19,3 +19,9 @@ execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"#####
 execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"Also Try TCC!","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
 # The Tempests Toolbox
 execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"Also Try TTB!","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
+# African Time
+execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"Every 60 seconds in Africa, a minuete passes","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
+# Crinch
+execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"The Grinch is cringe","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
+# Imaginary Life
+execute if score $math.out_0 du_data matches 0 run tellraw @a ["",{"text":"################################","color":"red"},{"text":"\n"},{"text":"Daily Quote:","bold":true,"underlined":true,"color":"light_purple"},{"text":"\n"},{"text":"\"","color":"green"},{"text":"Life is just your imagination...","italic":true,"color":"blue"},{"text":"\"","color":"green"},{"text":"\n"},{"text":"################################","color":"red"}]
