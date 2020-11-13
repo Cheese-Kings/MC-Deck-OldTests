@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Uninstall Frank.exe\nMC Deck - v1.0",
-        "pack_format": 6
+        "description": "A Card game in Minecraft\nv0.1",
+        "pack_format": 7
     }
 }
