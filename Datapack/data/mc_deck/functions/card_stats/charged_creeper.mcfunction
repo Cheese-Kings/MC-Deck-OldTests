@@ -1,4 +1,6 @@
-# Synergy
-scoreboard players set charged_creeper cardSynergy 30
-# Speed
-scoreboard players set charged_creeper cardSpeed 5
+# Attack
+scoreboard players set charged_creeper cardAttack 40
+# Health
+scoreboard players set charged_creeper cardHealth 30
+# ID
+scoreboard players set charged_creeper cardID 3

@@ -1,4 +1,6 @@
-# Synergy
-scoreboard players set pillager cardSynergy 15
-# Speed
-scoreboard players set pillager cardSpeed 4
+# Attack
+scoreboard players set pillager cardAttack 17
+# Health
+scoreboard players set pillager cardHealth 20
+# ID
+scoreboard players set pillager cardID 5

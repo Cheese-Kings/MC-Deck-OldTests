@@ -1,4 +1,6 @@
-# Synergy
-scoreboard players set creeper cardSynergy 20
-# Speed
-scoreboard players set creeper cardSpeed 4
+# Attack
+scoreboard players set creeper cardAttack 30
+# Health
+scoreboard players set creeper cardHealth 20
+# ID
+scoreboard players set creeper cardID 2

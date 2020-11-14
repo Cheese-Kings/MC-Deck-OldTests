@@ -1,6 +1,7 @@
 # Setup Card Data Objectives
-scoreboard objectives add cardSynergy dummy
-scoreboard objectives add cardSpeed dummy
+scoreboard objectives add cardAttack dummy
+scoreboard objectives add cardHealth dummy
+scoreboard objectives add cardID dummy
 
 # Setup Debug Scoreboard
 scoreboard objectives add Debug dummy

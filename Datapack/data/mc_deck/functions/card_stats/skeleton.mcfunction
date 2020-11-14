@@ -1,4 +1,6 @@
-# Synergy
-scoreboard players set skeleton cardSynergy 11
-# Speed
-scoreboard players set skeleton cardSpeed 6
+# Attack
+scoreboard players set skeleton cardAttack 12
+# Health
+scoreboard players set skeleton cardHealth 20
+# ID
+scoreboard players set skeleton cardID 4
