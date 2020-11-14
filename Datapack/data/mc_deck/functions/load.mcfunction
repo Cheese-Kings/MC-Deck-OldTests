@@ -24,11 +24,11 @@ scoreboard objectives add daily_rubies dummy
 function #mc_deck:install_card_stats
 
 # Setup Synergy Bossbar/Scoreboard
-bossbar add synergy ["",{"text":"-[=@=/","color":"yellow"},{"text":" SYNERGY","color":"light_purple"},{"text":" \\=@=]-","color":"yellow"}]
-bossbar set synergy color purple
-bossbar set synergy max 150
-bossbar set synergy style progress
-scoreboard objectives add player_synergy dummy
+bossbar add souls ["",{"text":"-[=@=/","color":"yellow"},{"text":" SYNERGY","color":"light_purple"},{"text":" \\=@=]-","color":"yellow"}]
+bossbar set souls color blue
+bossbar set souls max 150
+bossbar set souls style progress
+scoreboard objectives add player_souls dummy
 
 
 # Setup Card Health Bossbar/Scoreboard
@@ -43,6 +43,6 @@ execute if score first_time_load_completed Debug matches 0 run schedule function
 
 # Installation Completion
 tellraw @a ["",{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" MC Deck","color":"gold"},{"text":" datapack is loaded!","color":"aqua"}]
-execute if score first_time_load_completed Debug matches 1.. run tellraw @a [{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
+execute if score first_time_load_completed Debug matches 0 run tellraw @a [{"text":"[Debug]:","bold":true,"color":"yellow"},{"text":" First time load completed!","color":"green"}]
 # Mark first time load as completed
 execute if score first_time_load_completed Debug matches 0 run scoreboard players set first_time_load_completed Debug 1

@@ -11,13 +11,16 @@ execute as @a if score @s daily_rubies matches 1.. run scoreboard players remove
 execute store result score day_count Debug run time query day
 
 # Display Synergy
-bossbar set synergy players @a
-execute as @a[tag=!inBattle] run bossbar set synergy visible false
-execute as @a[tag=inBattle] run bossbar set synergy visible true
-scoreboard players add @a player_synergy 0
+bossbar set souls players @a
+execute as @a[tag=!inBattle] run bossbar set souls visible false
+execute as @a[tag=inBattle] run bossbar set souls visible true
+scoreboard players add @a player_souls 0
 
 # Display Card Health
 bossbar set card_health players @a
 execute as @a[tag=!inBattle] run bossbar set card_health visible false
 execute as @a[tag=inBattle] run bossbar set card_health visible true
-scoreboard players add @a player_synergy 0
+scoreboard players add @a player_card_hp 0
+
+# Stop Souls/Hp from going above max
+execute as @a if score @s player_card_hp
