@@ -1,0 +1,2 @@
+on join:
+    broadcast "Everone welcome PLAYER to the server"
