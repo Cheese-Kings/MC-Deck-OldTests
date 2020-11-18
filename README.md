@@ -3,3 +3,10 @@
 # What is Mc Deck?
 
 Mc Deck is an amazing Minecraft Datapack that adds an entire card game to your world for you and your friends to enjoy!
+
+## WARNING
+**This is some old test versions for Mc Deck that were made before we decided to make it a Minecraft Plugin**
+
+The test versions were:
+1. Datapack
+2. Skript
