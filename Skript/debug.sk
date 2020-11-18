@@ -1,0 +1,102 @@
+command /debug:
+	trigger:
+		set {_gui} to a new chest inventory with 3 row with name "Debug Menu"
+        # Line 1
+		set slot 0 of {_gui} to light_grey_stained_glass_pane
+		set slot 1 of {_gui} to light_grey_stained_glass_pane
+        set slot 2 of {_gui} to light_grey_stained_glass_pane
+		set slot 3 of {_gui} to light_grey_stained_glass_pane
+        set slot 4 of {_gui} to light_grey_stained_glass_pane
+		set slot 5 of {_gui} to light_grey_stained_glass_pane
+        set slot 6 of {_gui} to light_grey_stained_glass_pane
+		set slot 7 of {_gui} to light_grey_stained_glass_pane
+        set slot 8 of {_gui} to light_grey_stained_glass_pane
+        # Line 2
+        set slot 9 of {_gui} to dirt with [item( |-)]nbt {display:{Name:'[{"text":"Reset Homes","italic":false}]',Lore:['[{"text":"","italic":false}]','[{"text":"Haha say bye bye to ya homes!","italic":false}]','[{"text":"LOL","italic":false}]']}}
+		set slot 10 of {_gui} to dirt with [item( |-)]nbt {display:{Name:'[{"text":"List Homes","italic":false}]',Lore:['[{"text":"","italic":false}]','[{"text":"HELLO THERE","italic":false}]','[{"text":"I KNOW WHERE YOU LIVE","italic":false}]']}}
+        set slot 11 of {_gui} to light_grey_stained_glass_pane
+		set slot 12 of {_gui} to light_grey_stained_glass_pane
+        set slot 13 of {_gui} to light_grey_stained_glass_pane
+		set slot 14 of {_gui} to light_grey_stained_glass_pane
+        set slot 15 of {_gui} to light_grey_stained_glass_pane
+		set slot 16 of {_gui} to light_grey_stained_glass_pane
+        set slot 17 of {_gui} to light_grey_stained_glass_pane
+        # Line 3
+        set slot 18 of {_gui} to light_grey_stained_glass_pane
+		set slot 19 of {_gui} to light_grey_stained_glass_pane
+        set slot 20 of {_gui} to light_grey_stained_glass_pane
+		set slot 21 of {_gui} to light_grey_stained_glass_pane
+        set slot 22 of {_gui} to light_grey_stained_glass_pane
+		set slot 23 of {_gui} to light_grey_stained_glass_pane
+        set slot 24 of {_gui} to light_grey_stained_glass_pane
+		set slot 25 of {_gui} to light_grey_stained_glass_pane
+        set slot 26 of {_gui} to light_grey_stained_glass_pane
+
+		open {_gui} to player
+ 
+on inventory click:
+	if name of event-inventory is "Debug Menu":
+        # Line 1
+		if index of event-slot = 0:
+			cancel event
+        if index of event-slot = 1:
+			cancel event
+        if index of event-slot = 2:
+			cancel event
+        if index of event-slot = 3:
+			cancel event
+        if index of event-slot = 4:
+			cancel event
+        if index of event-slot = 5:
+			cancel event
+        if index of event-slot = 6:
+			cancel event
+        if index of event-slot = 7:
+			cancel event
+        if index of event-slot = 8:
+			cancel event
+        # Line 2
+        # Reset Homes
+        if index of event-slot = 9:
+            cancel event
+			set {_count} to the size of {home::*}
+            clear {home::*}
+            send "<light green>Successfully removed <light blue>%{_count}% <light green>homes."
+        if index of event-slot = 10:
+            cancel event
+			loop {home::*}: 
+                set {_player} to loop-index parsed as an offline player
+                send "<orange>Home of %{_player}%: <light blue>%loop-value%"
+        if index of event-slot = 11:
+			cancel event
+        if index of event-slot = 12:
+			cancel event
+        if index of event-slot = 13:
+			cancel event
+        if index of event-slot = 14:
+			cancel event
+        if index of event-slot = 15:
+			cancel event
+        if index of event-slot = 16:
+			cancel event
+        if index of event-slot = 17:
+			cancel event
+        # Line 3
+        if index of event-slot = 18:
+			cancel event
+        if index of event-slot = 19:
+			cancel event
+        if index of event-slot = 20:
+			cancel event
+        if index of event-slot = 21:
+			cancel event
+        if index of event-slot = 22:
+			cancel event
+        if index of event-slot = 23:
+			cancel event
+        if index of event-slot = 24:
+			cancel event
+        if index of event-slot = 25:
+			cancel event
+        if index of event-slot = 26:
+			cancel event

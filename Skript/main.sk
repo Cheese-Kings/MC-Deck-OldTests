@@ -1,8 +1,2 @@
 on join:
     broadcast "Everone welcome PLAYER to the server"
-
-command /debug:
-    trigger:
-        broadcast "This command is a work in progress..."
-        broadcast "<yellow> So heres some cake instead!"
-        give player 1 cake

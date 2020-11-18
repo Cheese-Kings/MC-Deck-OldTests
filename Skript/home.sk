@@ -1,0 +1,11 @@
+command /sethome:
+    trigger:
+        set {home::%player's uuid%} to location of player
+
+command /home:
+    trigger:
+        if {home::%player's uuid%} is not set:
+            message "<red>Uh Oh! <orange>You don't have a home!"
+            message "<yellow>Use <green>/sethome <yellow>to set your home location"
+            stop
+        teleport player to {home::%player's uuid%}
