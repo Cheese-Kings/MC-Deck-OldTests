@@ -3,7 +3,12 @@
 #########################
 
 # Variables
-set {version} to "2.0.1"
+
+on load:
+    # Load the config
+    load yaml "plugins/Skript/scripts/McDeck/config.yml" as "config"
+    # Set version number from config
+    set {version-number} to yaml value "version-number" from "config"
 
 # When a player joins the world
 on join:
@@ -12,4 +17,4 @@ on join:
 # Version Check
 command /mdVersionCheck:
     trigger:
-        message "The current version for Mc Deck is %version%"
+        message "The current version for Mc Deck is %version-number%"
