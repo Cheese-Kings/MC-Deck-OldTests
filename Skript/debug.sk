@@ -2,35 +2,35 @@ command /debug:
 	trigger:
 		set {_gui} to a new chest inventory with 3 row with name "Debug Menu"
         # Line 1
-		set slot 0 of {_gui} to light_grey_stained_glass_pane
-		set slot 1 of {_gui} to light_grey_stained_glass_pane
-        set slot 2 of {_gui} to light_grey_stained_glass_pane
-		set slot 3 of {_gui} to light_grey_stained_glass_pane
-        set slot 4 of {_gui} to light_grey_stained_glass_pane
-		set slot 5 of {_gui} to light_grey_stained_glass_pane
-        set slot 6 of {_gui} to light_grey_stained_glass_pane
-		set slot 7 of {_gui} to light_grey_stained_glass_pane
-        set slot 8 of {_gui} to light_grey_stained_glass_pane
+		set slot 0 of {_gui} to stone
+		set slot 1 of {_gui} to stone
+        set slot 2 of {_gui} to stone
+		set slot 3 of {_gui} to stone
+        set slot 4 of {_gui} to stone
+		set slot 5 of {_gui} to stone
+        set slot 6 of {_gui} to stone
+		set slot 7 of {_gui} to stone
+        set slot 8 of {_gui} to stone
         # Line 2
-        set slot 9 of {_gui} to dirt with [item( |-)]nbt {display:{Name:'[{"text":"Reset Homes","italic":false}]',Lore:['[{"text":"","italic":false}]','[{"text":"Haha say bye bye to ya homes!","italic":false}]','[{"text":"LOL","italic":false}]']}}
-		set slot 10 of {_gui} to dirt with [item( |-)]nbt {display:{Name:'[{"text":"List Homes","italic":false}]',Lore:['[{"text":"","italic":false}]','[{"text":"HELLO THERE","italic":false}]','[{"text":"I KNOW WHERE YOU LIVE","italic":false}]']}}
-        set slot 11 of {_gui} to light_grey_stained_glass_pane
-		set slot 12 of {_gui} to light_grey_stained_glass_pane
-        set slot 13 of {_gui} to light_grey_stained_glass_pane
-		set slot 14 of {_gui} to light_grey_stained_glass_pane
-        set slot 15 of {_gui} to light_grey_stained_glass_pane
-		set slot 16 of {_gui} to light_grey_stained_glass_pane
-        set slot 17 of {_gui} to light_grey_stained_glass_pane
+        set slot 9 of {_gui} to dirt
+		set slot 10 of {_gui} to dirt
+        set slot 11 of {_gui} to stone
+		set slot 12 of {_gui} to stone
+        set slot 13 of {_gui} to stone
+		set slot 14 of {_gui} to stone
+        set slot 15 of {_gui} to stone
+		set slot 16 of {_gui} to stone
+        set slot 17 of {_gui} to stone
         # Line 3
-        set slot 18 of {_gui} to light_grey_stained_glass_pane
-		set slot 19 of {_gui} to light_grey_stained_glass_pane
-        set slot 20 of {_gui} to light_grey_stained_glass_pane
-		set slot 21 of {_gui} to light_grey_stained_glass_pane
-        set slot 22 of {_gui} to light_grey_stained_glass_pane
-		set slot 23 of {_gui} to light_grey_stained_glass_pane
-        set slot 24 of {_gui} to light_grey_stained_glass_pane
-		set slot 25 of {_gui} to light_grey_stained_glass_pane
-        set slot 26 of {_gui} to light_grey_stained_glass_pane
+        set slot 18 of {_gui} to stone
+		set slot 19 of {_gui} to stone
+        set slot 20 of {_gui} to stone
+		set slot 21 of {_gui} to stone
+        set slot 22 of {_gui} to stone
+		set slot 23 of {_gui} to stone
+        set slot 24 of {_gui} to stone
+		set slot 25 of {_gui} to stone
+        set slot 26 of {_gui} to stone
 
 		open {_gui} to player
  
