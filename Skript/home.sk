@@ -1,3 +1,7 @@
+##################
+# Set Your Home! #
+##################
+
 command /sethome:
     trigger:
         set {home::%player's uuid%} to location of player

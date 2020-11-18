@@ -1,2 +1,15 @@
+#########################
+# Main code for Skripts #
+#########################
+
+# Variables
+set {version} to "2.0.1"
+
+# When a player joins the world
 on join:
-    broadcast "Everone welcome PLAYER to the server"
+    send action bar "<yellow>Welcome back to the server!" to player
+
+# Version Check
+command /mdVersionCheck:
+    trigger:
+        message "The current version for Mc Deck is %version%"

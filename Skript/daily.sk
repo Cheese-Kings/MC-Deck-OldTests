@@ -1,0 +1,11 @@
+###############################
+# Code for daily gifts/quotes #
+###############################
+
+time in world is 7:00:
+	# Set variable to random
+	set {dailyGiftRandom} to "%random integer from 1 to 10%"
+	# Send message to all players in action bar
+	send action bar "<light green>All online players have recieved their <yellow>Daily Gift!" to player's
+	# Give random amount
+	give player %dailyGiftRandom% bread
