@@ -2,10 +2,15 @@
 # Debug commands/etc. #
 #######################
 
-command /debugName:
+command /mdDebugName:
     trigger:
         set player's tab name to "Ug Ug the destroyer of worlds"
 
-command /debugVersion:
+command /mdDebugVersion:
     trigger:
         broadcast "The verison is being %version%, ok?"
+
+# Reload Mc Deck Skripts
+command /mdDebugReload:
+    trigger:
+        message "no"
