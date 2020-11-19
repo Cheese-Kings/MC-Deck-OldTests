@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/Cheese-Kings/MC-Deck/main/Resource%20Pack/pack.png) 
+![Logo](https://raw.githubusercontent.com/Cheese-Kings/MC-Deck-OldTests/main/Resource%20Pack/pack.png) 
 
 # What is Mc Deck?
 
